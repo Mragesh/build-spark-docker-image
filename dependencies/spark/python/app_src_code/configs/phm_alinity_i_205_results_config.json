@@ -1,0 +1,12 @@
+{
+  "etl_job_name" : "phm_alinity_i_205_results",
+  "spark_log_level" : "debug",
+  "instrument_log_bucket" : "abbottlink-datalake1",
+  "instrument_log_key" : "205/Result/",
+  "etl_transformed_bucket" : "abbottlink-datalake-planb",
+  "etl_transformed_key" : "205/Result/flat",
+  "etl_cleansed_bucket" : "abbottlink-datalake-planb",
+  "etl_cleansed_key" : "205/Result/cleansed",
+  "partition_prefix": "date=",
+  "instrument_log_read_period" : "7"
+}

@@ -1,0 +1,12 @@
+{
+    "s3a_prefix" : "s3a://",
+    "s3_endpoint_url" : "http://a1794d42c4c6d4758bdb8146c4811a1b-94449733.us-east-2.elb.amazonaws.com:9000",
+    "s3_aws_access_key_id" : "myaccesskey",
+    "s3_aws_secret_access_key" : "mysecretkey",
+    "s3_etl_runs_bucket" : "etl-runs",
+    "s3_etl_runs_audit_key" : "audit/",
+    "s3_list_max_keys" : "10000",
+    "etl_status_completed" : "COMPLETED",
+    "audit_file_suffix" : "%Y%m%d%H%M%S",
+    "timestamp_with_tz_format" : "%Y-%m-%d %H:%M:%S.%f%z"
+}

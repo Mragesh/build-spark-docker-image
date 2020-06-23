@@ -44,6 +44,7 @@ ENTRYPOINT [ "/opt/entrypoint.sh" ]
 
 # Custom packages
 COPY python/requirements.txt ${SPARK_HOME}/python/.
+COPY python/app_src_code ${SPARK_HOME}/python/app_src_code
 RUN pip3 install -r ${SPARK_HOME}/python/requirements.txt
 
 # Specify the User that the actual main process will run as
